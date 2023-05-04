@@ -5,7 +5,7 @@ pipeline {
         stage('compile') {
             steps {
                 echo 'Compiling Stage'
-                git 'https://github.com/awsdevopsclass2022/DevOpsClassCodes-aug.git'
+                git 'https://github.com/Johned999/DevOpsClassCodes-aug.git'
                 sh 'mvn compile'
             }
         }

@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                echo 'checkout'
+                echo 'checkout from repo using git clone'
+                git 'https://github.com/Johned999/DevOpsClassCodes-aug.git'
             }
         }
 

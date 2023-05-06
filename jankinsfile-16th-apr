@@ -1,0 +1,49 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('checkout') {
+            steps {
+                echo 'checkout'
+            }
+        }
+
+        stage('compile') {
+            steps {
+                echo 'compile'
+            }
+        }
+
+        stage('test') {
+            steps {
+                echo 'test'
+            }
+        }
+
+        stage('package') {
+            steps {
+                echo 'package'
+            }
+        }
+
+        stage('docker build') {
+            steps {
+                echo 'docker build'
+            }
+        }
+
+        stage('docker log-in') {
+            steps {
+                echo 'docker log-in'
+            }
+        }
+
+        stage('docker push') {
+            steps {
+                echo 'docker push'
+            }
+        }
+
+
+    }
+}

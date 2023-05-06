@@ -55,11 +55,11 @@ pipeline {
             }
         } 
 
-        stage('Clean Up Docker Image') {
-            steps {
-                //sh 'docker rmi devopsclass2022/address-app:${JOB_NAME}-${BUILD_NUMBER}'
-            }
-        }
+        //stage('Clean Up Docker Image') {
+        //    steps {
+        //        //sh 'docker rmi devopsclass2022/address-app:${JOB_NAME}-${BUILD_NUMBER}'
+        //    }
+        //}
     }
 
 }

@@ -33,18 +33,21 @@ pipeline {
         stage('docker build') {
             steps {
                 echo 'docker build'
+                sh 'docker build -t johned999/addressbook .'
             }
         }
 
         stage('docker log-in') {
             steps {
                 echo 'docker log-in'
+                sh 'docker login -u johned999 -p Nathan999'
             }
         }
 
         stage('docker push') {
             steps {
                 echo 'docker push'
+                sh 'docker push johned999/addressbook'
             }
         }
 

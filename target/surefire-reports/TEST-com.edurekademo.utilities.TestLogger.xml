@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.edurekademo.utilities.TestLogger" time="0.043" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.edurekademo.utilities.TestLogger" time="0.048" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="19.0.2+7-44"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:/Users/John/Documents/GIT_Projects/DevOpsClassCodes-aug"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/John/Documents/Docker Projects/DevOpsClassCodes-aug"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\John\Documents\GIT_Projects\DevOpsClassCodes-aug"/>
+    <property name="user.dir" value="C:\Users\John\Documents\Docker Projects\DevOpsClassCodes-aug"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
     <property name="os.arch" value="amd64"/>
@@ -60,9 +60,9 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testGetErrorMessage1" classname="com.edurekademo.utilities.TestLogger" time="0.033"/>
-  <testcase name="testGetErrorMessage3" classname="com.edurekademo.utilities.TestLogger" time="0.034"/>
-  <testcase name="testGetErrorMessage4" classname="com.edurekademo.utilities.TestLogger" time="0.033"/>
-  <testcase name="testGetErrorMessage2" classname="com.edurekademo.utilities.TestLogger" time="0.038"/>
-  <testcase name="testGetErrorMessage5" classname="com.edurekademo.utilities.TestLogger" time="0.042"/>
+  <testcase name="testGetErrorMessage1" classname="com.edurekademo.utilities.TestLogger" time="0.047"/>
+  <testcase name="testGetErrorMessage4" classname="com.edurekademo.utilities.TestLogger" time="0.047"/>
+  <testcase name="testGetErrorMessage3" classname="com.edurekademo.utilities.TestLogger" time="0.042"/>
+  <testcase name="testGetErrorMessage5" classname="com.edurekademo.utilities.TestLogger" time="0.043"/>
+  <testcase name="testGetErrorMessage2" classname="com.edurekademo.utilities.TestLogger" time="0.042"/>
 </testsuite>

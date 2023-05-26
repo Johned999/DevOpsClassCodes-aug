@@ -33,7 +33,7 @@ pipeline {
         stage('docker build') {
             steps {
                 echo 'docker build'
-                sh 'docker build -t johned999/addressbook:${BUILD_NUMBER} .'
+                sh 'docker build -t johned999/addressbook:${JOB_NAME}-${BUILD_NUMBER} .'
             }
         }
 
@@ -47,7 +47,7 @@ pipeline {
         stage('docker push') {
             steps {
                 echo 'docker push'
-                sh 'docker push johned999/addressbook:${BUILD_NUMBER}'
+                sh 'docker push johned999/addressbook:${JOB_NAME}-${BUILD_NUMBER}'
             }
         }
 
